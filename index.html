@@ -142,7 +142,7 @@ hr{border:none;border-top:1px solid var(--border);margin:22px 0}
     <p class="description"> </p>
     <div class="stack" style="margin-top:28px">
       <button type="button" class="button menu-button" onclick="showSeats()">全体を見る</button>
-      <button type="button" class="button primary menu-button" onclick="showPlay()">ーーー</button>
+      <button type="button" class="button primary menu-button" onclick="showPlay()">プレイ</button>
       <button type="button" class="button menu-button" onclick="showAdminLogin()">管理者</button>
     </div>
     <div id="connection-status" class="connection-status">Firebase接続確認中</div>
@@ -152,9 +152,9 @@ hr{border:none;border-top:1px solid var(--border);margin:22px 0}
 <section id="play-screen" class="screen">
   <button type="button" class="button small back-button" onclick="goHome()">← 戻る</button>
   <div class="panel">
-    <h2>プレイヤー登録</h2>
+    <h2>回答は締め切られました。ご協力ありがとうございました。</h2>
     <div class="field">
-      <label for="player-name-input">回答は締め切られました</label>
+      <label for="player-name-input"></label>
       <input id="player-name-input" type="text" maxlength="30" placeholder="この名前は全員に表示されます">
     </div>
    <button type="button" class="button primary" style="width:100%" onclick="confirmName()" disabled>確認する</button>
